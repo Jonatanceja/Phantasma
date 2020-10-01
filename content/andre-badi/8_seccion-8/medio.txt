@@ -1,0 +1,13 @@
+Title: Sección 8
+
+----
+
+Imagen1:
+
+- andre-badi-10.jpg
+
+----
+
+Imagen2:
+
+- andre-badi-11.jpg

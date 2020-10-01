@@ -1,0 +1,21 @@
+Title: Sección 2
+
+----
+
+Imagen1:
+
+- cerulia.jpg
+
+----
+
+Imagen2:
+
+- work.jpg
+
+----
+
+Texto:
+
+ART
+DIREC
+TION

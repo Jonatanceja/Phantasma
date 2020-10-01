@@ -1,0 +1,23 @@
+title: Texto doble
+icon: text
+fields:
+  texto: 
+    label: Texto
+    type: textarea
+  over: 
+    label: Texto encima
+    type: textarea
+  tipo:
+    label: Color de texto
+    type: select
+    options:
+      white: Blanco
+      black: Negro
+    icon: wand  
+  tipo2:
+    label: Color de texto 2
+    type: select
+    options:
+      white: Blanco
+      black: Negro
+    icon: wand   

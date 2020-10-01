@@ -1,0 +1,34 @@
+title: Proyecto
+icon: file-document
+
+sections:
+  parts:
+    headline: Secciones
+    type: pages
+    status: all
+    info: "{{ page.intendedTemplate }}"
+    image: false
+    templates:
+      - full
+      - medio
+      - trescuartos
+      - texto
+  content:
+    type: fields
+    fields:
+      color:
+        label: Color de fondo
+        type: select
+        options:
+          FFFFFF: Blanco
+          EDE0BF: Beige
+          50C4CF: Azul
+          000000: Negro
+        icon: wand      
+      tipo:
+        label: Color de texto
+        type: select
+        options:
+          white: Blanco
+          black: Negro
+        icon: wand     

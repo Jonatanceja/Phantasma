@@ -1,0 +1,38 @@
+title: work
+icon: page
+
+fields:
+  proyecto: 
+    label: Proyectos
+    type: structure
+    fields: 
+      portada: 
+        label: Portada
+        icon: image
+        type: files
+        layout: cards
+        size: huge
+        max: 1
+        image:
+          cover: true
+      nombre:
+        label: Nombre de proyecto
+        icon: headline
+        type: text
+      texto:
+        label: Texto
+        type: textarea
+      imagen:
+        label: Imagenes
+        icon: image
+        type: files
+        layout: cards
+  color:
+    label: Color de fondo
+    type: select
+    options:
+      FFFFFF: Blanco
+      EDE0BF: Beige
+      50C4CF: Azul
+      000000: Negro
+    icon: wand   

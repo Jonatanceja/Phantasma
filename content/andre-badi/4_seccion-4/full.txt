@@ -1,0 +1,11 @@
+Title: Sección 4
+
+----
+
+Imagen:
+
+- andre-badi-2.jpg
+
+----
+
+Parallax: rellax

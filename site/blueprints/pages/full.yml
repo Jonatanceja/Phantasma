@@ -1,0 +1,14 @@
+title: Imagen completa
+icon: image
+
+fields:
+  imagen:
+    type: files
+    label: Imagen
+    max: 1
+    layout: cards
+    size: huge
+  parallax:
+    type: select
+    options:
+      rellax: Si

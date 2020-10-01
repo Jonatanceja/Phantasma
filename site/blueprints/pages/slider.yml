@@ -1,0 +1,19 @@
+title: Slider
+icon: image
+
+fields:
+  slider: 
+    label: Slider
+    type: structure
+    fields: 
+      imagen: 
+        label: Imagen
+        icon: image
+        type: files
+        layout: cards
+        size: huge
+      libro:
+        label: Enlace de libro
+        type: files
+        accept:
+          mime: document/pdf

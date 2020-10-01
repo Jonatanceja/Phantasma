@@ -1,0 +1,12 @@
+Title: Slider
+
+----
+
+Slider:
+
+- 
+  imagen:
+    - libros.jpg
+- 
+  imagen:
+    - libros.jpg

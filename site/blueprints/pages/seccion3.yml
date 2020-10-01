@@ -1,0 +1,12 @@
+title: Seccion 3
+icon: home
+
+fields:
+  imagen1:
+    label: Imagen superior
+    type: files
+    max: 1
+    icon: image
+  texto: 
+    label: Texto
+    type: textarea

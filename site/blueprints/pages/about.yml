@@ -1,0 +1,35 @@
+title: About
+icon: email
+
+sections:
+  parts:
+    headline: Secciones
+    type: pages
+    status: all
+    info: "{{ page.intendedTemplate }}"
+    image: false
+    templates:
+      - titulo
+      - full
+      - fulltext
+      - overlap
+      - slider
+  content:
+    type: fields
+    fields:
+      color:
+        label: Color de fondo
+        type: select
+        options:
+          FFFFFF: Blanco
+          EDE0BF: Beige
+          50C4CF: Azul
+          000000: Negro
+        icon: wand      
+      tipo:
+        label: Color de texto
+        type: select
+        options:
+          white: Blanco
+          black: Negro
+        icon: wand      

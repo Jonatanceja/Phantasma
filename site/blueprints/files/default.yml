@@ -1,0 +1,25 @@
+title: Archivo
+
+columns:
+  main:
+    width: 1/2
+    sections:
+      content:
+        type: fields
+        fields:
+          caption:
+            label: Leyenda
+            type: textarea
+            size: medium
+  sidebar:          
+    width: 1/2
+    sections:
+      meta:
+        type: fields
+        fields:
+          alt:
+            label: Texto alternativo
+            type: text
+          link:
+            label: Link
+            type: url

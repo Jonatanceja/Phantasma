@@ -1,0 +1,13 @@
+title: Texto
+icon: text
+fields:
+  texto: 
+    label: Texto
+    type: textarea
+  tipo:
+    label: Color de texto
+    type: select
+    options:
+      white: Blanco
+      black: Negro
+    icon: wand  

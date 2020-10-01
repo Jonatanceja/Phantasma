@@ -1,0 +1,17 @@
+title: Seccion 2
+icon: home
+
+fields:
+  imagen1:
+    label: Imagen superior
+    type: files
+    max: 1
+    icon: image
+  imagen2:
+    label: Imagen inferior
+    type: files
+    max: 1
+    icon: image
+  texto: 
+    label: Texto
+    type: textarea

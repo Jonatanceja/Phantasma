@@ -1,0 +1,15 @@
+Title: Sección 7
+
+----
+
+Imagen:
+
+- andre-badi-9.jpg
+
+----
+
+Parallax: rellax
+
+----
+
+Parallax1: rellax

@@ -1,0 +1,21 @@
+Title: Sección 1
+
+----
+
+Imagen1:
+
+- intro-slider.jpg
+
+----
+
+Imagen2:
+
+- sector-reforma-1.jpg
+
+----
+
+Texto:
+
+PHA
+NTA
+SMA

@@ -1,0 +1,28 @@
+title: Dos imagenes 1/2 - 1/2
+icon: image
+
+fields:
+  imagen1:
+    type: files
+    label: Imagen izquierda
+    max: 1
+    layout: cards
+    size: huge
+    width: 1/2
+  imagen2:
+    type: files
+    label: Imagen derecha
+    max: 1
+    layout: cards
+    size: huge
+    width: 1/2
+  parallax1:
+    type: select
+    options:
+      rellax: Si
+    width: 1/2
+  parallax2:
+    type: select
+    options:
+      rellax: Si
+    width: 1/2

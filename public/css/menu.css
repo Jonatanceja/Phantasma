@@ -1,0 +1,47 @@
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    background-color: #d8d8d8;
+    overflow-x: hidden;
+    transition: 0.5s;
+    }
+
+    .overlay-content {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    }
+
+    .overlay h1 {
+    font-size: 56px;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    letter-spacing: 5px;
+    }
+
+    @media only screen and (max-width: 768px) {
+    .overlay h1 {
+        font-size: 36px;
+        padding: 8px;
+        text-decoration: none;
+        display: block;
+        transition: 0.3s;
+        letter-spacing: 5px;
+        }
+    }    
+
+    .overlay .closebtn {
+    position: absolute;
+    top: 45px;
+    left: 5%;
+    float: right;
+    }
+

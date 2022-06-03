@@ -1,4 +1,4 @@
-<div class="container mx-auto py-40">
+<div class="container mx-auto py-40 wow fadeIn">
     <div class="grid grid-cols-2 gap-6">
         <div>
             <?php if($image = $page->imagen1()->toFile()): ?>

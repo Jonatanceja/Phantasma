@@ -6,17 +6,38 @@ Proyecto:
 
 - 
   portada:
-    - portada-vinilpress.jpg
-  nombre: Fanzine 001
-  texto: >
-    Lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit, sed diam nonummy nibh
-    euismod tincidunt ut laoreet dolore
-    magna aliquam erat volutpat.
+    - moderna-files.png
+  nombre: 'André Badi '
+  texto: Fall Winter MDNA Collection
   imagen:
-    - andre-badi-5.jpg
-    - andre-badi-4.jpg
-    - andre-badi-7.jpg
+    - moderna-files.png
+    - moderna-files2.png
+    - moderna-files6.png
+    - moderna-files5.png
+    - moderna-files4.png
+    - moderna-files3.png
+    - moderna-files7.png
+- 
+  portada:
+    - lc1.png
+  nombre: Lucky Cat
+  texto: Baking Brand
+  imagen:
+    - lc1.png
+    - lc2.png
+- 
+  portada:
+    - 1.png
+  nombre: 'E L D O R A D O '
+  texto: Roasters Club
+  imagen:
+    - 1.png
+    - 6b.png
+    - 3b.png
+    - 7.png
+    - 5b.png
+    - 2.png
+    - 8.png
 - 
   portada:
     - music-portada.png
@@ -27,9 +48,28 @@ Proyecto:
     euismod tincidunt ut laoreet dolore
     magna aliquam erat volutpat.
   imagen:
+    - music-portada.png
     - artboard-2.jpg
     - artboard-1.jpg
+- 
+  portada:
+    - portada-vinilpress.jpg
+  nombre: Fanzine 001
+  texto: >
+    Lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit, sed diam nonummy nibh
+    euismod tincidunt ut laoreet dolore
+    magna aliquam erat volutpat.
+  imagen:
+    - portada-vinilpress.jpg
+    - andre-badi-5.jpg
+    - andre-badi-4.jpg
+    - andre-badi-7.jpg
 
 ----
 
 Color: EDE0BF
+
+----
+
+Tipo: black

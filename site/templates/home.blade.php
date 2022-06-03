@@ -6,3 +6,12 @@
 @endforeach
 
 @endsection
+@section('scripts')
+<script src="/js/rellax.min.js"></script>
+<script>
+  // Center all the things!
+  var rellax = new Rellax('.rellax', {
+    center: true
+  });
+</script>
+@endsection

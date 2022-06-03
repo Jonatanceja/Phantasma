@@ -80,3 +80,39 @@
             width: 25%;
           }
 
+          .small h1 {
+            font-size: 140px;
+            position: absolute;
+            color: black;
+            text-align: center;
+            width: 100%;
+            top: 0%;
+            transform: translateY(-55%);
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .small h1 {font-size: 120px;}
+          }
+        
+          @media only screen and (max-width: 600px) {
+            .small h1 {font-size: 60px;}
+          }
+        
+          .margen {
+            margin-top: 500px;
+          }
+        
+          @media only screen and (max-width: 600px) {
+            .margen {margin-top: 250px;}
+          }
+        
+          .centrado {
+            left: 50%;
+            transform: translate(-50%)
+          }
+
+          .slick-track {
+            width: 100%;
+          }
+
+          .grid-item { width: 200px; }

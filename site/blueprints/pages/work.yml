@@ -35,4 +35,11 @@ fields:
       EDE0BF: Beige
       50C4CF: Azul
       000000: Negro
+    icon: wand
+  tipo:
+    label: Color de texto
+    type: select
+    options:
+      white: Blanco
+      black: Negro
     icon: wand   

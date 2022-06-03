@@ -3,20 +3,24 @@
 
 <div class="container mx-auto min-h-screen mt-40 md:mt-64">
     
-    <div class="grid grid-cols-4 gap-6">
+    <div x-data="new Masonry( $root, {
+      columnWidth: '.msry-sizer',
+      itemSelector: '.msry-item',
+    })" class="grid">
 
+        <div class="msry-sizer"></div>
         <?php 
         $items = $page->proyecto()->toStructure();
         foreach ($items as $index => $item): ?>  
 
-        <div>     
-        <a data-fancybox-trigger="gallery-{{ $index }}">
-            <?php foreach ($item->portada()->toFiles() as $image): ?> 
-            <img class="w-full cursor-pointer multiply" src="{{ $image->url() }}" />
-            <?php endforeach ?>
-        </a>
-        <div class="text-center text-xl uppercase tracking-widest py-5">{{ $item->nombre() }}</div>
-        <div class="text-center text-sm tracking-widest">{{ $item->texto() }}</div>
+        <div class="msry-item p-8">
+          <a data-fancybox-trigger="gallery-{{ $index }}">
+              <?php foreach ($item->portada()->toFiles() as $image): ?> 
+              <img class="w-full cursor-pointer mix-blend-multiply hover:mix-blend-normal ease-in-out duration-300 transition" src="{{ $image->url() }}" />
+              <?php endforeach ?>
+          </a>
+          <div class="text-center text-xl uppercase tracking-widest py-5">{{ $item->nombre() }}</div>
+          <div class="text-center text-sm tracking-widest">{{ $item->texto() }}</div>
 
          
           <?php foreach ($item->imagen()->toFiles() as $image): ?>
@@ -87,4 +91,5 @@
 
 });
 </script>
+<script src="/js/masonry.pkgd.min.js"></script>
 @endsection

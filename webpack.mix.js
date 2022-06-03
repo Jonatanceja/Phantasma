@@ -1,5 +1,4 @@
 let mix = require('laravel-mix');
-require('laravel-mix-tailwind');
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -12,10 +11,27 @@ require('laravel-mix-tailwind');
  */
 
 mix
-    .js('resources/js/app.js', 'public/js')
-    .sass('resources/scss/app.scss', 'public/css')
-    .tailwind('tailwind.config.js')
-    .setPublicPath('public/')
+  .js('resources/js/app.js', 'js')
+  .postCss('resources/css/app.css', 'css', [
+    require('postcss-import'),
+    require('tailwindcss/nesting'),
+    require('tailwindcss'),
+    //require('autoprefixer'),
+  ])
+  .setPublicPath('public/')
+  .disableSuccessNotifications()
+  .browserSync({
+    proxy: 'phantasma.test',
+    notify: false,
+    files: [
+        './resources',
+        './site/models',
+        './site/controllers',
+        './site/templates',
+        './site/snippets',
+        './content'
+    ]
+  });
 
 if (mix.inProduction()) {
     mix.version()

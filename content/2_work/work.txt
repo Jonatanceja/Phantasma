@@ -27,11 +27,10 @@ Proyecto:
     - lc2.png
 - 
   portada:
-    - 1.png
+    - 2.png
   nombre: 'E L D O R A D O '
   texto: Roasters Club
   imagen:
-    - 1.png
     - 6b.png
     - 3b.png
     - 7.png
@@ -64,7 +63,6 @@ Proyecto:
     - portada-vinilpress.jpg
     - andre-badi-5.jpg
     - andre-badi-4.jpg
-    - andre-badi-7.jpg
 
 ----
 

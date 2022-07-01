@@ -17,3 +17,6 @@ fields:
         type: files
         accept:
           mime: document/pdf
+      name:
+        label: Nombre
+        type: text

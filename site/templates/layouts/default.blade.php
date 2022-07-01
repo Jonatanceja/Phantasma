@@ -12,11 +12,22 @@
     <link rel="stylesheet" type="text/css" href="/css/menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
     @yield('styles')
+    <style>
+       .swiper-pagination-bullet-active {
+        background-color: white;
+      }
+
+      .swiper-pagination-bullet {
+        background-color: white;
+      }
+
+    </style>
 
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
@@ -33,6 +44,7 @@
 <script src="{{ mix('js/app.js') }}"></script>
 <script src="/js/menu.js"></script>
 @yield('scripts')
+@stack('scripts')
 
 
 

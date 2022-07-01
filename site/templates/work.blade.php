@@ -24,7 +24,7 @@
 
          
           <?php foreach ($item->imagen()->toFiles() as $image): ?>
-          <a href="{{ $image->crop(980, 620, 99)->url() }}" data-fancybox="gallery-{{ $index }}" data-caption="<p style='text-transform: uppercase; font-size: 1.25rem; letter-spacing: 0.1em;'>{{ $image->alt() }}</p><p style='letter-spacing: 0.1em;'>{{ $image->caption() }}</p>"></a>
+          <a href="{{ $image->url() }}" data-fancybox="gallery-{{ $index }}" data-caption="<p style='text-transform: uppercase; font-size: 1.25rem; letter-spacing: 0.1em;'>{{ $image->alt() }}</p><p style='letter-spacing: 0.1em;'>{{ $image->caption() }}</p>"></a>
           <?php endforeach ?>
         
         </div>

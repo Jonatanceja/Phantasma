@@ -7,6 +7,12 @@ Slider:
 - 
   imagen:
     - libros.jpg
+  libro:
+    - phantasma-book.pdf
+  name: Beauty conects Everything V.01
 - 
   imagen:
     - libros.jpg
+  libro:
+    - phantasma-book-ii.pdf
+  name: Beauty Conects Everything V.02

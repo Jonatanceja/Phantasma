@@ -125,3 +125,58 @@
           }
 
           .grid-item { width: 200px; }
+
+
+  
+  .slider .slick-dots li button::before {
+    font-size: 12px;
+    margin-top: 25px;
+    }
+  
+    .multiply {
+      mix-blend-mode: multiply;
+    }
+  
+    .multiply:hover {
+      mix-blend-mode: normal;
+    }
+  
+    .fancybox-button {
+      color: black;
+    }
+  
+    .fancybox-button:hover {
+      color: rgb(53, 53, 53);
+    }
+  
+    .fancybox-button {
+      background-color: transparent;
+    }
+  
+    .fancybox-bg{
+      background-color: white;
+    }
+  
+    .fancybox-is-open .fancybox-bg {
+    opacity: 0.8;
+    transition-timing-function: cubic-bezier(.22,.61,.36,1);
+    }
+  
+    .fancybox-caption__body {
+    color: black;
+    }
+  
+    .fancybox-caption {
+      background: transparent;
+    }
+  
+    .fancyHeading {
+      text-transform: capitalize;
+    }
+  
+    .fancybox-button {
+  
+      width: 50px;
+      height: 50px;
+   }
+
